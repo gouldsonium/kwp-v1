@@ -16,7 +16,6 @@ export default defineNuxtConfig({
         region: "eu"
       } 
     }],
-    'nuxt-og-image',
     'nuxt-simple-robots',
     !!process.env.GTAG_ID ?
     ['nuxt-gtag', {
